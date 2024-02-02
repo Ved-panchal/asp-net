@@ -1,0 +1,54 @@
+﻿body {
+    background-color:black;
+}
+
+.Register_form{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register {
+    position: relative;
+    height: 35rem;
+    width: 30rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 0px grey;
+}
+
+.Header{
+    position:absolute;
+    top:0px;
+    height:3rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-weight:700;
+}
+
+.reg_content{
+    margin-top:-5rem;
+    margin-left:5rem;
+    width:70%;
+    height:50%;
+}
+
+.Gender{
+    margin-top:5px;
+}
+
+.button{
+    position:absolute;
+    bottom:3rem;
+    left:12rem;
+    background-color:black;
+}
